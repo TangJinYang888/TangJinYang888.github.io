@@ -11,11 +11,11 @@
   <meta charset="utf-8">
 
   
-  <title>我的第一篇博客</title>
+  <title>一次有意思的规避</title>
   
-  <link rel="canonical" href="http://example.com/2024/04/08/%E4%B8%80%E6%AC%A1%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E8%A7%84%E9%81%BF/">
+  <link rel="canonical" href="http://example.com/2024/03/15/%E4%B8%80%E6%AC%A1%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E8%A7%84%E9%81%BF/">
   
-  <meta name="description" content="记录一次降频规避ROB超时方法 眠唤醒测试时多个核心报了个硬件错。由于芯片已经流片回来，无法立即修改，我得想办法规避。 硬件部门提示降频有概率规避，于是第一个办法是在核心睡眠之前将频率降至旁路频率200M，唤醒后再升频，该方案无法完全规避该问题，整个睡眠唤醒过程偶尔有一两个核心仍报错，概率大约为10">
+  <meta name="description" content="事情缘起与 眠唤醒测试时多个核心报了个硬件错。由于芯片已经流片回来，无法立即修改，我得想办法规避。 硬件部门提示降频有概率规避，于是第一个办法是在核心睡眠之前将频率降至旁路频率200M，唤醒后再升频，该方案无法完全规避该问题，整个睡眠唤醒过程偶尔有一两个核心仍报错，概率大约为10%，领导觉得概率太高">
   
   
   <meta name="author" content="John Doe">
@@ -24,21 +24,21 @@
   
   <meta property="og:site_name" content="Hexo" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="我的第一篇博客" />
+  <meta property="og:title" content="一次有意思的规避" />
   
-  <meta property="og:description" content="记录一次降频规避ROB超时方法 眠唤醒测试时多个核心报了个硬件错。由于芯片已经流片回来，无法立即修改，我得想办法规避。 硬件部门提示降频有概率规避，于是第一个办法是在核心睡眠之前将频率降至旁路频率200M，唤醒后再升频，该方案无法完全规避该问题，整个睡眠唤醒过程偶尔有一两个核心仍报错，概率大约为10">
+  <meta property="og:description" content="事情缘起与 眠唤醒测试时多个核心报了个硬件错。由于芯片已经流片回来，无法立即修改，我得想办法规避。 硬件部门提示降频有概率规避，于是第一个办法是在核心睡眠之前将频率降至旁路频率200M，唤醒后再升频，该方案无法完全规避该问题，整个睡眠唤醒过程偶尔有一两个核心仍报错，概率大约为10%，领导觉得概率太高">
   
-  <meta property="og:url" content="http://example.com/2024/04/08/%E4%B8%80%E6%AC%A1%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E8%A7%84%E9%81%BF/" />
+  <meta property="og:url" content="http://example.com/2024/03/15/%E4%B8%80%E6%AC%A1%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E8%A7%84%E9%81%BF/" />
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="我的第一篇博客">
+  <meta name="twitter:title" content="一次有意思的规避">
   
-  <meta name="twitter:description" content="记录一次降频规避ROB超时方法 眠唤醒测试时多个核心报了个硬件错。由于芯片已经流片回来，无法立即修改，我得想办法规避。 硬件部门提示降频有概率规避，于是第一个办法是在核心睡眠之前将频率降至旁路频率200M，唤醒后再升频，该方案无法完全规避该问题，整个睡眠唤醒过程偶尔有一两个核心仍报错，概率大约为10">
+  <meta name="twitter:description" content="事情缘起与 眠唤醒测试时多个核心报了个硬件错。由于芯片已经流片回来，无法立即修改，我得想办法规避。 硬件部门提示降频有概率规避，于是第一个办法是在核心睡眠之前将频率降至旁路频率200M，唤醒后再升频，该方案无法完全规避该问题，整个睡眠唤醒过程偶尔有一两个核心仍报错，概率大约为10%，领导觉得概率太高">
   
   
   <meta name="twitter:image" content="http://example.comundefined">
   
-  <meta name="twitter:url" content="http://example.com/2024/04/08/%E4%B8%80%E6%AC%A1%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E8%A7%84%E9%81%BF/" />
+  <meta name="twitter:url" content="http://example.com/2024/03/15/%E4%B8%80%E6%AC%A1%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E8%A7%84%E9%81%BF/" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -189,14 +189,14 @@
 </div>
 
         <div class="trans">
-            <h2>我的第一篇博客</h2>
+            <h2>一次有意思的规避</h2>
 
-  <p>记录一次降频规避ROB超时方法</p>
+  <p>事情缘起与</p>
 <p>眠唤醒测试时多个核心报了个硬件错。由于芯片已经流片回来，无法立即修改，我得想办法规避。</p>
 <p>硬件部门提示降频有概率规避，于是第一个办法是在核心睡眠之前将频率降至旁路频率200M，唤醒后再升频，该方案无法完全规避该问题，整个睡眠唤醒过程偶尔有一两个核心仍报错，概率大约为10%，领导觉得概率太高，得再想办法。</p>
 <p>后来我想了个办法，睡眠后核心不真正睡，而是让CPU进入Halt状态，同时频率降至1.2Ghz，随后唤醒时再升频。该方案立竿见影，由于核心未进入真正睡眠状态，唤醒时硬件报错问题就规避了，后来测量功耗，仅比真正的睡眠高10%（期间由于调频后芯片不稳，出了各种奇怪问题，调试花了不少时间）。</p>
 
-  <p> — Apr 8, 2024</p>
+  <p> — Mar 15, 2024</p>
   
 
 
